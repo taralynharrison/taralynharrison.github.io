@@ -1,8 +1,49 @@
 <!DOCTYPE html>
+<html lang="en" >
 <head>
-<title>Hello world!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CodePen - A Pen by propineapplepizza</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&amp;display=swap'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Reem+Kufi&amp;display=swap'>
+<link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-<h1>Hello world!</h1>
+<div class="container">
+  <nav class="nav">
+    <ul>
+      <li class="name"><a href="#">Taralyn Harrison</a></li>
+      <li><a href="#license">License</a></li>
+      <li><a href="#updates">Updates</a></li>
+    </ul>
+  </nav>
+  
+  <header class="wrapper">
+  <h1>Hi, I'm Taralyn Harrison.</h1>
+  <p>I'm a graphic & web designer from Port Orchard, WA. I make free and open source templates. <a href="https://github.com/taralynharrison/taralynharrison.github.io">This site's also open source.</a></p><p>Use them however you want, just leave credit. That's pretty much it. :P</p>
+  </header>
+  
+  
+  
+  <div class="wrapper">
+    <h2 id="license">License</h2>
+	<p>All of my templates (including this site!) are under a <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons License</a>. That means you can use them however you want for both personal and commercial use, and it's all free. :) My only one request is that you please leave the credit intact. Thanks!</p>
+  </div>
+  
+  <div class="wrapper">
+    <h2 id="updates">Updates</h2>
+	<p>All updates for my content can be found on <a href="https://dribbble.com/taralyn">dribbble</a>.</p>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./script.js"></script>
+<script>$('a').click(function(){
+			$('html, body').animate({
+					scrollTop: $( $.attr(this, 'href') ).offset().top
+			}, 500);
+			return false;
+	});</script>
 </body>
 </html>

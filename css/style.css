@@ -1,0 +1,59 @@
+body{
+  background:#FFECD6;
+  font-family:'Roboto Regular', sans-serif;
+  line-height: 1.5;
+  color: #4D4A45;
+}
+
+a{
+  color: #168AA4;
+  text-decoration: none;
+}
+
+
+.container{
+  max-width:1280px;
+  width:95%;
+  display: grid;
+  margin: 0 auto;
+}
+
+.wrapper{
+  max-width:35%;
+}
+
+nav{
+  font-family:'Reem Kufi', sans-serif;
+  text-transform: uppercase;
+}
+
+.nav ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  align-items: center;
+}
+
+.nav ul li{padding:40px;}
+
+.nav ul li.name{
+  font-size:24px;
+  padding-left:0;
+}
+
+.nav ul li a{
+  color: #4D4A45;
+}
+
+.nav ul li a:hover{
+  color:#202121;
+}
+
+header{
+  padding:50px 0;
+}
+
+header h1{
+  font-family:'Roboto Black', sans-serif;
+}
