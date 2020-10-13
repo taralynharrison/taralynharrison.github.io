@@ -6,7 +6,7 @@ I'm a graphic and web designer.
 
 This is my repository for my web projects.
 
-You are more than welcome to take whatever you want from it. :)
+You are more than welcome to take whatever you want from it. :) You can use them however you want for both personal and commercial use, and it's all free. :) My only one request is that you please leave the credit intact. Thanks!
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
