@@ -3,41 +3,96 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CodePen - A Pen by propineapplepizza</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&amp;display=swap'>
-<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Reem+Kufi&amp;display=swap'>
+  <title>Taralyn's Gitfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+<link rel='stylesheet' href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&amp;display=swap" />
+<link rel='stylesheet' href="https://fonts.googleapis.com/css2?family=Reem+Kufi&amp;display=swap" />
+<link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
-<div class="container">
-  <nav class="nav">
-    <ul>
-      <li class="name"><a href="#">Taralyn Harrison</a></li>
-      <li><a href="#license">License</a></li>
-      <li><a href="#updates">Updates</a></li>
-    </ul>
-  </nav>
-  
-  <header class="wrapper">
-  <h1>Hi, I'm Taralyn Harrison.</h1>
-  <p>I'm a graphic & web designer from Port Orchard, WA. I make free and open source templates. <a href="https://github.com/taralynharrison/taralynharrison.github.io">This site's also open source.</a></p><p>Use them however you want, just leave credit. That's pretty much it. :P</p>
-  </header>
-  
-  
-  
-  <div class="wrapper">
-    <h2 id="license">License</h2>
-	<p>All of my templates (including this site!) are under a <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons License</a>. That means you can use them however you want for both personal and commercial use, and it's all free. :) My only one request is that you please leave the credit intact. Thanks!</p>
+
+  <div class="container">
+    <nav class="nav">
+      <div class="name"><a href="#">Taralyn Harrison</a></div>
+      <ul>
+        <li><a href="#license">License</a></li>
+        <li><a href="#updates">Updates</a></li>
+      </ul>
+    </nav>
+
+    <header class="header wrapper">
+      <h1>Hi, I'm Taralyn Harrison.</h1>
+      <p>I'm from Port Orchard, WA. I make free and open source templates. <br> <a href="https://github.com/taralynharrison/taralynharrison.github.io" target="_blank">This site's also open source.</a></p>
+      <p>Use them however you want, just leave credit. That's pretty much it. :P</p>
+    </header>
+
+    <main>
+
+      <article class="section forager">
+        <div class="border">
+          <div class="contents">
+            <figure class="image"><a href="#"><img src="images/forager.png"></a></figure>
+            <div class="info">
+              <h2 class="title">Forager</h2>
+              <div class="buttons">
+                <div class="button"><a class="demo" href="#">Demo</a></div>
+                <div class="button"><a class="download" href="#">Download</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="section flamingo">
+        <div class="border">
+          <div class="contents">
+            <figure class="image"><a href="#"><img src="images/flamingo.png"></a></figure>
+            <div class="info">
+              <h2 class="title">Flamingo</h2>
+              <div class="buttons">
+                <div class="button"><a class="demo" href="#">Demo</a></div>
+                <div class="button"><a class="download" href="#">Download</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="section">
+        <div class="border">
+          <div class="contents">
+            <figure class="image"><a href="#"><img src="images/placeholder.jpg"></a></figure>
+            <div class="info">
+              <h2 class="title">Flamingo</h2>
+              <div class="buttons">
+                <div class="button"><a class="demo" href="#">Demo</a></div>
+                <div class="button"><a class="download" href="#">Download</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <div class="wrapper">
+        <h2 id="license">License</h2>
+        <p>All of my templates (including this site!) are under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons License</a>. That means you can use them however you want for both personal and commercial use, and it's all free. :) My only one request is that you please leave the credit intact. Thanks!</p>
+      </div>
+
+      <div class="wrapper">
+        <h2 id="updates">Updates</h2>
+        <p>All updates for my content can be found on <a href="https://dribbble.com/taralyn" target="_blank">dribbble</a>.</p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="icons"><a href="https://github.com/taralynharrison/" target="_blank"><i class="fab fa-github-alt fa-2x"></i></a> <a href="https://dribbble.com/taralyn" target="_blank"><i class="fab fa-dribbble fa-2x"></i></a></p>
+      <p>Licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.
+    </footer>
   </div>
-  
-  <div class="wrapper">
-    <h2 id="updates">Updates</h2>
-	<p>All updates for my content can be found on <a href="https://dribbble.com/taralyn">dribbble</a>.</p>
-  </div>
-</div>
-<!-- partial -->
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./script.js"></script>
 <script>$('a').click(function(){
 			$('html, body').animate({
